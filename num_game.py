@@ -29,11 +29,10 @@ while input("Want to play the number guessing game? Enter Y for yes or N for no:
             print(f'You did not guesss the number in the alotted amount of tries, YOU LOSE.')
         
 
-        
-        
 
 
 '''
+Lou's Code Solution for Guess the number game
 biggest_num = 100
 num_to_guess = 45
 num_found = False
@@ -59,4 +58,38 @@ while input( "Wanna play the number guessing game? (y or n) ==> ").upper() == "Y
                 num_left = "no" if max_num_guesses == num_guesses \
                     else (max_num_guesses - num_guesses)
                 print(f'You have {num_left} guesses left.\n')
+'''
+
+'''
+Part 2: Code a simple menu
+Write a program that displays a menu for C (create), R (read), U(update),
+D(delete) or Q(quit). The output should resemble:
+Enter:
+C to create,
+R to read,
+U to update,
+D to delete or
+Q to quit ==> c
+Calling CREATE routine..…
+Enter:
+C to create,
+R to read,
+U to update,
+D to delete or
+Q to quit ==> t
+Your entry T is invalid - try again
+Enter:
+C to create,
+R to read,
+U to update,
+D to delete or
+Q to quit ==> r
+Calling READ routine..…
+Enter:
+C to create,
+R to read,
+U to update,
+D to delete or
+Q to quit ==> q
+Exiting program
 '''
